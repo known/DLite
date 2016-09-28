@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<providers>
+	<provider name="DefaultProvider">
+		<assembly>Known.DLite</assembly>
+		<clazz>Known.DLite.Clients.SqlProvider</clazz>
+		<connString>Data Source=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|\Database.mdf;Integrated Security=True;User Instance=True</connString>
+	</provider>
+</providers>

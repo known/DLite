@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B7E46392-34A8-4D2F-9E9F-C27254326663}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Known.DLite</RootNamespace>
+    <AssemblyName>Known.DLite</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Mapping\BaseEntity`1.cs" />
+    <Compile Include="Clients\AccessProvider.cs" />
+    <Compile Include="Clients\OracleProvider.cs" />
+    <Compile Include="Clients\SqlProvider.cs" />
+    <Compile Include="Command.cs" />
+    <Compile Include="IProvider.cs" />
+    <Compile Include="KQuery.cs" />
+    <Compile Include="Mapping\ColumnAttribute.cs" />
+    <Compile Include="Mapping\Impl\AttributedMetaType.cs" />
+    <Compile Include="Mapping\MetaManager.cs" />
+    <Compile Include="Mapping\MetaParameter.cs" />
+    <Compile Include="Mapping\MetaTable.cs" />
+    <Compile Include="Mapping\MetaType.cs" />
+    <Compile Include="Mapping\TableAttribute.cs" />
+    <Compile Include="Parameter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ProviderConfig.cs" />
+    <Compile Include="ProviderConfigItem.cs" />
+    <Compile Include="ProviderException.cs" />
+    <Compile Include="ProviderFactory.cs" />
+    <Compile Include="Transaction.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DLite.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

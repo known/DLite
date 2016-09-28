@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Known.DLite.Clients.AccessProvider" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAACAAGEAAAUAAAAAAAAAAQQAIAAAAAAABAAgAAA=</HashCode>
+      <FileName>Clients\AccessProvider.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Known.DLite.Clients.OracleProvider" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAACAAGEAAAUAAAAAAAAAAQQAIAAAAAAABAAgAAA=</HashCode>
+      <FileName>Clients\OracleProvider.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Known.DLite.Clients.SqlProvider" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAACAAGEAAAUAAAAAAAAAAQQAIAAAAAAABAAgAAA=</HashCode>
+      <FileName>Clients\SqlProvider.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Known.DLite.Command" Collapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAACAAAAAAAAAIIACAAAAAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Known.DLite.KQuery" Collapsed="true">
+    <Position X="6.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAEAABEAAAQFEQAAAAAAAAAAAAAQQBAQAI=</HashCode>
+      <FileName>KQuery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Known.DLite.Parameter" Collapsed="true">
+    <Position X="8" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAQAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Parameter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Known.DLite.ProviderConfig" Collapsed="true">
+    <Position X="9.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAQAAACA=</HashCode>
+      <FileName>ProviderConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Known.DLite.ProviderConfigItem" Collapsed="true">
+    <Position X="11.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAQAAAAAAIAAAAAAAAAgAAA=</HashCode>
+      <FileName>ProviderConfigItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Known.DLite.ProviderException" Collapsed="true">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProviderException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Known.DLite.NotFindProviderException" Collapsed="true">
+    <Position X="1.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProviderException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Known.DLite.NotMatchProviderException" Collapsed="true">
+    <Position X="3.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProviderException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Known.DLite.ProviderFactory" Collapsed="true">
+    <Position X="6.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAEAAAAAAA=</HashCode>
+      <FileName>ProviderFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Known.DLite.Transaction" BaseTypeListCollapsed="true">
+    <Position X="11.5" Y="3.5" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Known.DLite.Transaction.TextType">
+        <TypeIdentifier>
+          <NewMemberFileName>Transaction.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQAA0AAACAEgAAmAAAIAgAAAAEAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Transaction.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Known.DLite.Mapping.BaseEntity&lt;TEntity&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQCAMAgEAAAEAVEgBARAAAAQAEAAIAAIAAAAAAAAAA=</HashCode>
+      <FileName>Mapping\BaseEntity`1.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Known.DLite.Mapping.ColumnAttribute" Collapsed="true">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAQCABhAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Mapping\ColumnAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Known.DLite.Mapping.AttributedMetaType" Collapsed="true">
+    <Position X="1.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAABAAAAAAAAAAAAABAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Mapping\Impl\AttributedMetaType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Known.DLite.Mapping.MetaManager" Collapsed="true">
+    <Position X="8" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAGAAAAAAAAACAAAAAAAABAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Mapping\MetaManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Known.DLite.Mapping.MetaParameter" Collapsed="true">
+    <Position X="9.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACCBhAAAAAAAAAAABAIAA=</HashCode>
+      <FileName>Mapping\MetaParameter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Known.DLite.Mapping.MetaTable" Collapsed="true">
+    <Position X="11.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAIACAAAAAAAAAAAAAAAQAAABIAgQEAAAEEAAAAAAAA=</HashCode>
+      <FileName>Mapping\MetaTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Known.DLite.Mapping.MetaType" Collapsed="true">
+    <Position X="1.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAQAAABAAAEAAAAQAAgAQ=</HashCode>
+      <FileName>Mapping\MetaType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Known.DLite.Mapping.TableAttribute" Collapsed="true">
+    <Position X="9.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Mapping\TableAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Known.DLite.IProvider" Collapsed="true">
+    <Position X="6.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEEAAAQAAAAAAAAAAAAAIAAAAAAABAAgAAA=</HashCode>
+      <FileName>IProvider.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="新細明體" Size="9" />
+</ClassDiagram>
