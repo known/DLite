@@ -164,7 +164,7 @@ namespace Test
 			System.Diagnostics.Stopwatch watch;
 			watch = new System.Diagnostics.Stopwatch();
 			watch.Start();
-			KQuery query = new KQuery(new OracleProvider("Data Source=WEBDBSZ_CAE_WEBDBS1;user=faq;password=faq;"));
+			KQuery query = new KQuery(new OracleProvider("Data Source=***;user=***;password=***;"));
 			UserInfo user = query.Get<UserInfo>("902756", "Known_Chen");
 			Console.WriteLine(query.ToString());
 			//UserInfo user = null;
@@ -270,7 +270,7 @@ namespace Test
 		public string Type { get; set; }
 	}
 
-	[Table(Name = "vt_applyformmn", History = "vt_applyformmn_history")]
+	[Table(Name = "t_applyformmn", History = "t_applyformmn_his")]
 	class ApplyForm
 	{
 		[Column(IsPrimaryKey = true)]
